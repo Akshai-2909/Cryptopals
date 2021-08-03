@@ -9,4 +9,4 @@ import base64
 string = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
 string = unhexlify(string)
 output = base64.b64encode(string)
-print(output)
+print(output.decode('UTF-8'))
