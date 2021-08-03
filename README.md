@@ -1,2 +1,3 @@
-# Java-GUI-Project
-Just a fun GUI project to calculate the cgpa of my college
+# Cryptopals
+Consists solution for all sets of Cryptopals.
+### This repo is under development
