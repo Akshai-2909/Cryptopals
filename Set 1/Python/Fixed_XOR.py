@@ -1,13 +1,9 @@
 from pwn import xor
 from binascii import hexlify, unhexlify
 
-#Input Strings
-string1 = '1c0111001f010100061a024b53535009181c'  
-string2 = '686974207468652062756c6c277320657965'
-
 def xor():   
-    string1 = unhxelify(string1)
-    string = unhexlify(string2)
+    string1 = unhxelify('1c0111001f010100061a024b53535009181c' )
+    string2 = unhexlify('686974207468652062756c6c277320657965')
     output = hexlify(xor(string1,string2))
     print(output)
     
